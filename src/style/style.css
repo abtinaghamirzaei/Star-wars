@@ -1,0 +1,99 @@
+body, html {
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url("./component/back_im3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+}
+
+#box{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    flex-direction: row;
+}
+
+.movies{
+    padding-bottom: 30px;
+    display: flex;
+}
+#first{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+#second{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+#third{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.cl{
+    background-color: brown;
+    padding-bottom: 30px;
+    display: flex;
+    width: 100px;
+    border: 1px solid #d1c9be;
+}
+
+.tytles{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px 40px;
+    max-width: 1000px;
+    flex-shrink : 1 ;
+    background-color: #000000CC;
+    color: #fff;
+    border-radius: 10px;
+    animation: fade-in 0.85s;
+    position: relative;
+    box-shadow: 0 0 80px 20px #000;
+    transition: background-color 0.85s;
+}
+
+#new1{
+    width: 50vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left:25vw ;
+    margin-bottom: 0%;
+    flex-direction: row;
+    background-color: #000000CC;
+    box-shadow: 0 0 80px 20px rgb(255, 255, 255);
+}
+#new1 a{
+    color: #fff;
+    
+}
+#information_star{
+    color: cornsilk;
+}
+
+#starsInfo{
+    margin-left: 200px;
+}
+
+.items1{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.items2{
+    margin-bottom: 20px;
+    color: #fff;
+}
